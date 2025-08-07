@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+public class trafficlight {
+    public static void main(String[] args) {
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter the lights:RED,YELLOW,GREEN");
+    String a=scan.next();
+    
+    switch(a){
+        case"RED":
+            System.out.println("STOP");
+            break;
+        case"YELLOW":
+             System.out.println("READY");
+             break;
+        case"GREEN":
+            System.out.println("GO");
+             break;
+             
+    }
+    }
+}

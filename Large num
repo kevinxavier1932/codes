@@ -14,6 +14,6 @@ public class Main
 else{
     System.out.println("c is big");
 }
-	//	System.out.println("Hello World");
+
 	}
 }

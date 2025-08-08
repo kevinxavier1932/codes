@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class add
+{
+   public static void light(){
+       System.out.println("light's on");
+   }
+   public static void horn(){
+       System.out.println("keee kee");
+   }
+  
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("on the Switch");
+        System.out.println("1. horn :");
+           System.out.println("2. light :");
+        
+        int a=scan.nextInt();
+        
+        switch(a){
+            case 1:
+                        horn();
+                        break;
+            case 2:
+                  light();
+                  break;
+                  default :
+                  System.out.println("no work");
+                
+                
+        }
+
+      
+        
+    }
+    
+    
+    
+    
+}

@@ -1,0 +1,16 @@
+public class sample
+{
+    int a=2;
+    char c='n';
+    String s="nyna"; 
+    public static void area(sample t){
+        //int c=a+b;
+        System.out.println(t.a);
+    }
+        public static void main(String[] args) {
+          sample s1=new sample();
+          int a=10;
+            area(s1);
+
+        }
+}

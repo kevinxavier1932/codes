@@ -1,10 +1,9 @@
-public class sample
-{
-    int a=2;
+public class sample{
+    int a=5555;
     char c='n';
-    String s="nyna"; 
+    String s="dolakkpur"; 
     public static void area(sample t){
-        //int c=a+b;
+        
         System.out.println(t.a);
     }
         public static void main(String[] args) {

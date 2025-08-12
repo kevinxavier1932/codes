@@ -1,0 +1,19 @@
+public class maxormin {
+    public static void main(String[] args) {
+        int []num={51,22,36,59,60};
+        int max=num[0];
+        int min=num[0];
+    for(int i=0;i<num.length;i++){
+        if(num[i] < max){
+            max=num[i];}
+        else if(num[i] < min){
+            min=num[i];
+             
+        }
+            
+        }   
+        System.out.println("Maximam number is:"+ max);
+          System.out.println("Maximam number is:"+ min);
+        }
+    }
+    

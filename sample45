@@ -1,0 +1,24 @@
+public class Sample45{
+    Sample45( String b ){
+        String a=b;
+        System.out.println(a);
+    }
+    {
+         System.out.println("hi");
+    }
+    Static {
+         System.out.println("hiiiiiiiiiii");
+    }
+    {
+         System.out.println("hello");
+    }
+    public static void main(String[] args){
+        NewClass n=new NewClass;
+        Sample45 s=new Sample45("NOT SUPPORT");
+         System.out.println(n.a);
+          System.out.println(n.b);
+    }
+     System.out.println(n.area());
+    }
+    }
+}
